@@ -1,28 +1,22 @@
 //
-//  YYMainPageViewController.m
+//  YYMyVC.m
 //  tabbarDemo
 //
-//  Created by Y杨定甲 on 16/10/24.
-//  Copyright © 2016年 damai. All rights reserved.
+//  Created by 杨定甲 on 2017/6/20.
+//  Copyright © 2017年 damai. All rights reserved.
 //
 
-#import "YYMainPageViewController.h"
-#import "AppDelegate.h"
+#import "YYMyVC.h"
 
-@interface YYMainPageViewController ()
+@interface YYMyVC ()
 
 @end
 
-@implementation YYMainPageViewController
+@implementation YYMyVC
 
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view.
-}
-- (void)viewWillAppear:(BOOL)animated{
-    [super viewWillAppear:animated];
-    AppDelegate *appDelegate = (AppDelegate *)[[UIApplication sharedApplication] delegate];
-    appDelegate.tabBarView.hidden = NO;
 }
 
 - (void)didReceiveMemoryWarning {

@@ -7,6 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5C42799F1EF8D27500C6831E /* YYMyVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 5C42799E1EF8D27500C6831E /* YYMyVC.m */; };
+		5C4279A21EF8D29200C6831E /* YYMainPageVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 5C4279A11EF8D29200C6831E /* YYMainPageVC.m */; };
+		5C4279A51EF8D2CE00C6831E /* YYMyVC+YYPublic.m in Sources */ = {isa = PBXBuildFile; fileRef = 5C4279A41EF8D2CE00C6831E /* YYMyVC+YYPublic.m */; };
+		5C4279A81EF8D2DF00C6831E /* YYMyVC+YYPrivate.m in Sources */ = {isa = PBXBuildFile; fileRef = 5C4279A71EF8D2DF00C6831E /* YYMyVC+YYPrivate.m */; };
+		5C4279AB1EF8D2F400C6831E /* YYMyVC+YYNewClassify.m in Sources */ = {isa = PBXBuildFile; fileRef = 5C4279AA1EF8D2F400C6831E /* YYMyVC+YYNewClassify.m */; };
 		93468D111CA4D86F006C0100 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 93468D101CA4D86F006C0100 /* main.m */; };
 		93468D141CA4D86F006C0100 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 93468D131CA4D86F006C0100 /* AppDelegate.m */; };
 		93468D171CA4D86F006C0100 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 93468D161CA4D86F006C0100 /* ViewController.m */; };
@@ -23,7 +28,6 @@
 		936298111DBDB21D0034E395 /* TRViewControllerC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9362980B1DBDB21D0034E395 /* TRViewControllerC.xib */; };
 		936298151DBDB2AE0034E395 /* YYTabbarView.m in Sources */ = {isa = PBXBuildFile; fileRef = 936298141DBDB2AE0034E395 /* YYTabbarView.m */; };
 		936298181DBDB4EA0034E395 /* YYTabbarViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 936298171DBDB4EA0034E395 /* YYTabbarViewController.m */; };
-		9362981B1DBDBAEF0034E395 /* YYMainPageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9362981A1DBDBAEF0034E395 /* YYMainPageViewController.m */; };
 		9362981E1DBDF5E00034E395 /* MHTabBarSegue.m in Sources */ = {isa = PBXBuildFile; fileRef = 9362981D1DBDF5E00034E395 /* MHTabBarSegue.m */; };
 /* End PBXBuildFile section */
 
@@ -45,6 +49,16 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		5C42799D1EF8D27500C6831E /* YYMyVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YYMyVC.h; sourceTree = "<group>"; };
+		5C42799E1EF8D27500C6831E /* YYMyVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YYMyVC.m; sourceTree = "<group>"; };
+		5C4279A01EF8D29200C6831E /* YYMainPageVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YYMainPageVC.h; sourceTree = "<group>"; };
+		5C4279A11EF8D29200C6831E /* YYMainPageVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YYMainPageVC.m; sourceTree = "<group>"; };
+		5C4279A31EF8D2CE00C6831E /* YYMyVC+YYPublic.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "YYMyVC+YYPublic.h"; sourceTree = "<group>"; };
+		5C4279A41EF8D2CE00C6831E /* YYMyVC+YYPublic.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "YYMyVC+YYPublic.m"; sourceTree = "<group>"; };
+		5C4279A61EF8D2DF00C6831E /* YYMyVC+YYPrivate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "YYMyVC+YYPrivate.h"; sourceTree = "<group>"; };
+		5C4279A71EF8D2DF00C6831E /* YYMyVC+YYPrivate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "YYMyVC+YYPrivate.m"; sourceTree = "<group>"; };
+		5C4279A91EF8D2F400C6831E /* YYMyVC+YYNewClassify.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "YYMyVC+YYNewClassify.h"; sourceTree = "<group>"; };
+		5C4279AA1EF8D2F400C6831E /* YYMyVC+YYNewClassify.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "YYMyVC+YYNewClassify.m"; sourceTree = "<group>"; };
 		93468D0C1CA4D86F006C0100 /* tabbarDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = tabbarDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		93468D101CA4D86F006C0100 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		93468D121CA4D86F006C0100 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -74,8 +88,6 @@
 		936298141DBDB2AE0034E395 /* YYTabbarView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YYTabbarView.m; sourceTree = "<group>"; };
 		936298161DBDB4EA0034E395 /* YYTabbarViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YYTabbarViewController.h; sourceTree = "<group>"; };
 		936298171DBDB4EA0034E395 /* YYTabbarViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YYTabbarViewController.m; sourceTree = "<group>"; };
-		936298191DBDBAEF0034E395 /* YYMainPageViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YYMainPageViewController.h; sourceTree = "<group>"; };
-		9362981A1DBDBAEF0034E395 /* YYMainPageViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YYMainPageViewController.m; sourceTree = "<group>"; };
 		9362981C1DBDF5E00034E395 /* MHTabBarSegue.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MHTabBarSegue.h; sourceTree = "<group>"; };
 		9362981D1DBDF5E00034E395 /* MHTabBarSegue.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MHTabBarSegue.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -133,8 +145,6 @@
 				93468D151CA4D86F006C0100 /* ViewController.h */,
 				93468D161CA4D86F006C0100 /* ViewController.m */,
 				93468D181CA4D86F006C0100 /* Main.storyboard */,
-				936298121DBDB2450034E395 /* TabbarView */,
-				936298021DBDB1F50034E395 /* TabbarViewController */,
 				936298001DBDB1AA0034E395 /* Class */,
 				93468D1B1CA4D86F006C0100 /* Assets.xcassets */,
 				93468D1D1CA4D86F006C0100 /* LaunchScreen.storyboard */,
@@ -173,6 +183,8 @@
 		936298001DBDB1AA0034E395 /* Class */ = {
 			isa = PBXGroup;
 			children = (
+				936298121DBDB2450034E395 /* TabbarView */,
+				936298021DBDB1F50034E395 /* TabbarViewController */,
 				9362981F1DBE0F2D0034E395 /* Controller */,
 				936298201DBE0F2D0034E395 /* View */,
 			);
@@ -191,11 +203,8 @@
 				936298091DBDB21D0034E395 /* TRViewControllerC.h */,
 				9362980A1DBDB21D0034E395 /* TRViewControllerC.m */,
 				9362980B1DBDB21D0034E395 /* TRViewControllerC.xib */,
-				936298191DBDBAEF0034E395 /* YYMainPageViewController.h */,
-				9362981A1DBDBAEF0034E395 /* YYMainPageViewController.m */,
 			);
-			name = TabbarViewController;
-			path = Class/TabbarViewController;
+			path = TabbarViewController;
 			sourceTree = "<group>";
 		};
 		936298121DBDB2450034E395 /* TabbarView */ = {
@@ -208,13 +217,22 @@
 				9362981C1DBDF5E00034E395 /* MHTabBarSegue.h */,
 				9362981D1DBDF5E00034E395 /* MHTabBarSegue.m */,
 			);
-			name = TabbarView;
-			path = Class/TabbarView;
+			path = TabbarView;
 			sourceTree = "<group>";
 		};
 		9362981F1DBE0F2D0034E395 /* Controller */ = {
 			isa = PBXGroup;
 			children = (
+				5C4279A01EF8D29200C6831E /* YYMainPageVC.h */,
+				5C4279A11EF8D29200C6831E /* YYMainPageVC.m */,
+				5C42799D1EF8D27500C6831E /* YYMyVC.h */,
+				5C42799E1EF8D27500C6831E /* YYMyVC.m */,
+				5C4279A31EF8D2CE00C6831E /* YYMyVC+YYPublic.h */,
+				5C4279A41EF8D2CE00C6831E /* YYMyVC+YYPublic.m */,
+				5C4279A61EF8D2DF00C6831E /* YYMyVC+YYPrivate.h */,
+				5C4279A71EF8D2DF00C6831E /* YYMyVC+YYPrivate.m */,
+				5C4279A91EF8D2F400C6831E /* YYMyVC+YYNewClassify.h */,
+				5C4279AA1EF8D2F400C6831E /* YYMyVC+YYNewClassify.m */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -361,14 +379,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5C4279AB1EF8D2F400C6831E /* YYMyVC+YYNewClassify.m in Sources */,
 				936298181DBDB4EA0034E395 /* YYTabbarViewController.m in Sources */,
 				93468D171CA4D86F006C0100 /* ViewController.m in Sources */,
+				5C4279A21EF8D29200C6831E /* YYMainPageVC.m in Sources */,
+				5C42799F1EF8D27500C6831E /* YYMyVC.m in Sources */,
 				9362980C1DBDB21D0034E395 /* TRViewControllerA.m in Sources */,
 				93468D141CA4D86F006C0100 /* AppDelegate.m in Sources */,
+				5C4279A81EF8D2DF00C6831E /* YYMyVC+YYPrivate.m in Sources */,
 				936298101DBDB21D0034E395 /* TRViewControllerC.m in Sources */,
-				9362981B1DBDBAEF0034E395 /* YYMainPageViewController.m in Sources */,
 				9362981E1DBDF5E00034E395 /* MHTabBarSegue.m in Sources */,
 				936298151DBDB2AE0034E395 /* YYTabbarView.m in Sources */,
+				5C4279A51EF8D2CE00C6831E /* YYMyVC+YYPublic.m in Sources */,
 				9362980E1DBDB21D0034E395 /* TRViewControllerB.m in Sources */,
 				93468D111CA4D86F006C0100 /* main.m in Sources */,
 			);
